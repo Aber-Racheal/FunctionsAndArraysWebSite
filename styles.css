@@ -1,0 +1,702 @@
+.banner{
+    background-image:   linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./webMedia/bannerbackgroundimage.jpg') ;  
+    height: 800px;
+    padding-bottom: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid whitesmoke;
+    margin: 60px;
+    padding-top: 0%;
+    border-radius: 100px;
+    height: 90px;
+    background-color: whitesmoke;
+}
+
+
+
+
+
+.navbar-links{
+    display: flex;
+    gap: 70px;
+    list-style-type: none;
+   
+}
+
+.navbar-links a{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+   
+}
+
+
+#TravelWorld{
+    width: 200px;
+    height: 200px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    
+}
+
+
+/* Travel and Enjoyment */
+#travel-enjoyment{
+    color:whitesmoke;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#Discover{
+    color:whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#BookATripNow{
+    background-color: orange;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 40%;
+    width: 25%;
+    border: orange;
+    position: absolute;
+}
+
+#BookNow{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 4%;
+    
+}
+
+#booklink{
+    text-decoration: none;
+}
+
+#arrow{
+    margin-left: 61%;
+    position: absolute;
+    margin-top: 1%;
+    width: 50px;
+    height: auto;
+    
+}
+
+/* Dive Into The Beauty Of The World */
+
+#Dive{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#itIsLongEstablished{
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+
+
+/* Dive Three boxes */
+
+.dive{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10%;
+    margin-bottom: 0%;
+    padding: 0%;
+    margin-top: 5%;
+
+
+}
+
+#Divepic{
+    border-radius: 10px;
+    height: 300px;
+    width:90% ;
+} 
+
+#Divepic1{
+    border-radius: 10px;
+    height: 300px;
+    width:50% ;
+
+} 
+
+.GrandCanyon{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 0%;
+} 
+
+
+.amount-per-person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.priceandstar{
+    display: flex;
+    flex-direction: row;
+} 
+
+.twopics{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#Piclabel{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+#sentence-under-label{
+    font-size: large;
+
+}
+
+.amountperson{
+    display: flex;
+    gap: 1px;
+}
+
+.starrating{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#star-rate{
+    width: 20px;
+    margin: 0%;
+    color: orange;
+}
+
+
+#dollar{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 1%;
+}
+
+
+#persons{
+    font-size: small;
+    margin-bottom: 0%;
+    margin-top: 10%;
+}
+
+
+#rate{
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+
+.arrows{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5%;
+}
+
+#back{
+    width: 80px;
+}
+
+#forward{
+    width: 70px;
+    border: orange solid;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+
+
+/* 
+<!-- Unique Features --> */
+
+
+#UniqueFeatures{
+
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+/* #curve{
+    border: 2px solid;
+    border-bottom: dotted;
+    width: 90px;
+    border-radius: curve;
+
+} */
+
+.UniqueAdventures{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+
+#Optimize{
+font-size: x-large;
+text-align: center;
+font-weight: bold;
+}
+
+#comments{
+    text-align: center;
+}
+
+#AdventureIcons{
+    margin-left: 30%;
+}
+
+
+
+
+
+/* TOP DESTINATION */
+.countryButtons{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+
+
+#TopDestination{
+    text-align: center;
+
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5%;
+
+}
+
+.countryButtons button{
+    border-radius: 27px;
+    height: 60px;
+    width: 10%;
+    font-size: larger;
+}
+
+#Italy{
+    color: orange;
+    border: solid 2px orange;
+    width: 7%;
+}
+
+.ITALY{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+
+#florence{
+    background-image: url('./webMedia/florence.jpeg');
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#Venice{
+    background-image: url('./webMedia/venice.jpeg');
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+#Porto{
+    background-image: url('./webMedia/Porto.jpeg');
+    width: 400px;
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+
+#Milan{
+    background-image: url('./webMedia/Milan.jpeg');
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#Rome{
+    background-image: url('./webMedia/Rome.jpeg');
+
+
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+
+#OurClients{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+#clientStar{
+    width: 20px;
+}
+
+
+
+.Clients{
+    display: flex;
+    flex-direction: row;margin: 10%;
+    gap: 40px;
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+
+.KeyaAkter{
+    display: flex;
+    gap: 20px;
+}
+
+#Keya{
+    width: 50px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20%;
+
+}
+
+#AbidBuffalo{
+    margin-top: 0%;
+}
+
+#name{
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+
+#OurBlog{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-top: 5%;
+}
+
+#Blog-sentence{
+    font-size: larger;
+    text-align: center;
+    
+}
+
+.OurBlog{
+    display: flex;
+}
+
+#February{
+    background-image: url(./webMedia/February.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 20px;
+    padding: 0%;
+    
+    
+}
+
+#Feb{
+
+    margin-bottom: 0%;
+    color: whitesmoke;
+
+}
+
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./webMedia/bannerbackgroundimage.jpg') ;  
+#dateAndArrow{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+#march01{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border-bottom: 1px solid rgb(49, 48, 48);
+    justify-content: space-around;
+}
+
+
+#PricingDetails{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+/* AnyQuestions */
+
+
+.AnyQuestions{
+    background-color: orange;
+    display: flex;
+    
+    margin: 10%;
+    border-radius: 30px;
+    height: 250px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    
+    position: absolute;
+    width: 60%
+
+}
+
+.form{
+    height: 200px;
+    background-color: whitesmoke;
+    width: 320px;
+    position: absolute;
+    margin-left: 50%;
+    padding-right: 0%;
+    padding-left: 1%;
+    margin-top: 5%;
+    padding-bottom: 10px;
+    /* margin-bottom: 5%; */
+    border-radius: 20px;
+   
+
+}
+
+
+#nem{
+    border: none;
+    border-bottom: 1px solid;
+    width: 300px;
+    padding: 5px;
+     
+}
+
+#Querry1{
+    font-size: xx-large;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-left: 15%;
+}
+
+#Querry2{
+    color: whitesmoke;
+    margin-left: 15%;
+}
+
+
+#submit{
+    border: 2px solid orange;
+    border-radius: 25px;
+    margin-top: 5%;
+    margin: 5%;
+    margin-left: 1%;
+    background-color: orange;
+
+}
+
+
+#submitword{
+    text-align: center;
+    cursor: pointer;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+.ChooseYourAdventure{
+    height: 500px;
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./webMedia/house.jpg');   
+    background-size: cover;
+    margin-top: 30%;
+}
+
+
+
+#hills{
+
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    
+    margin-top: 5%;
+    padding-top: 15%;
+    font-weight: bold;
+}
+
+#login{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border: orange;
+    background-color: orange;
+    color: whitesmoke;
+
+    
+}
+
+#Signup{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border: orange;
+    background-color: whitesmoke;
+    color: black;
+
+}
+.signandlogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+
+#JoinUs{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-top: 5%;
+}
+.subscribe{
+    border: coral 2px solid;
+    border-radius: 30px;
+    height: 70px;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 4%;
+}
+
+#typeemail{
+    border: none;
+    color: rgb(24, 23, 23);
+    margin-top: 1%;
+    position: absolute;
+    margin-left: 3%;
+    font-size: medium;
+}
+
+#subscribearrow{
+    float: right;
+    margin-left: 25%;
+    position: absolute;
+    margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    
+    
+}
+
+#title{
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+
+#subtitles{
+    font-size: larger;
+    color: rgb(46, 45, 45);
+    cursor: pointer;
+
+}
+
+
+#border{
+    border-top: solid 2px grey;
+
+}
+
+#Travel{
+    text-align: center;
+    color: gray;
+    font-size: smaller;
+}
