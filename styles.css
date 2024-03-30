@@ -269,6 +269,17 @@
 
 } */
 
+
+#clientarrows{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#arro{
+    display: flex;
+    gap: 20px;
+}
 .UniqueAdventures{
     display: flex;
     flex-direction: row;
@@ -334,50 +345,62 @@ font-weight: bold;
     gap: 60px;
     justify-content: center;
     margin-top: 5%;
+    padding: 0%;
     
 }
 
 
 #florence{
-    background-image: url('./webMedia/florence.webp');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./webMedia/florence.webp');
     width: 500px;
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    padding: 0%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 #Venice{
-    background-image: url('./webMedia/Venice.webp');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./webMedia/Venice.webp');
     width: 500px;
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 #Porto{
-    background-image: url('./webMedia/porto.webp');
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./webMedia/porto.webp');
     width: 400px;
     height: 640px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
    
 }
 
 #Milan{
-    background-image: url('./webMedia/Milan.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./webMedia/Milan.jpg');
     width: 400px;
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #Rome{
-    background-image: url('./webMedia/Rome.webp');
+    background-image:linear-gradient(rgba(37, 37, 37, 0.5),rgba(41, 40, 40, 0.5)), url('./webMedia/Rome.webp');
 
 
     width: 400px;
@@ -385,9 +408,25 @@ font-weight: bold;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
+
+#FLORENCE{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 20%;
+    
+    
+}
+
+#starandrate{
+    display: flex;
+    gap: 1px;
+    
+}
 
 
 #OurClients{
