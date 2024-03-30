@@ -251,6 +251,37 @@
 <!-- Unique Features --> */
 
 
+#curve1{
+    width: 300px;
+    height: 400px;
+    border: dashed;
+    border-top: none;
+    border-radius: 500px;
+    border-left: none;
+    border-right: none;
+    margin-top: 0%;
+    padding-top: 0%;
+    
+
+}
+
+
+#curve2{
+    width: 300px;
+    height: 400px;
+    border: dashed;
+    border-bottom: none;
+    border-radius: 500px;
+    border-left: none;
+    border-right: none;
+    margin-top: 0%;
+    padding-top: 0%;
+    
+
+}
+
+
+
 #UniqueFeatures{
 
     color: black;
@@ -285,7 +316,8 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 10%;
-    margin-top: 5%;
+    margin-top: 0%;
+
 }
 
 
@@ -425,7 +457,12 @@ font-weight: bold;
 #starandrate{
     display: flex;
     gap: 1px;
-    
+    border: 2px solid orange;
+    color: whitesmoke;
+    height: 30px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 50%;
 }
 
 
@@ -495,7 +532,7 @@ font-weight: bold;
 }
 
 #February{
-    background-image: url(./webMedia/February.jpeg);
+    background-image: linear-gradient(rgba(37, 37, 37, 0.5),rgba(41, 40, 40, 0.5)), url(./webMedia/February.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -505,12 +542,30 @@ font-weight: bold;
     
 }
 
-#Feb{
+#FebMonth{
 
     margin-bottom: 0%;
     color: whitesmoke;
+    margin-top: 60%;
 
 }
+
+#Feb1{
+color: whitesmoke;
+}
+
+#Feb2{
+
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+
+
+
+
+
 
 
 #dateAndArrow{
