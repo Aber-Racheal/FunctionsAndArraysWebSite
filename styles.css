@@ -22,7 +22,13 @@
 }
 
 
+#home{
+    border: orange 2px solid;
+    background-color: orange;
+    border-radius: 20px;
+    font-size: xx-large;
 
+}
 
 
 .navbar-links{
@@ -42,11 +48,11 @@
 
 
 #TravelWorld{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 100px;
     margin-top: 0%;
     margin-bottom: 0%;
-    padding: 0%;
+    padding-bottom: 0%;
     
 }
 
@@ -333,7 +339,7 @@ font-weight: bold;
 
 
 #florence{
-    background-image: url('./webMedia/florence.jpeg');
+    background-image: url('./webMedia/florence.webp');
     width: 500px;
     height: 300px;
     background-repeat: no-repeat;
@@ -342,7 +348,7 @@ font-weight: bold;
 }
 
 #Venice{
-    background-image: url('./webMedia/venice.jpeg');
+    background-image: url('./webMedia/Venice.webp');
     width: 500px;
     height: 300px;
     background-repeat: no-repeat;
@@ -352,7 +358,7 @@ font-weight: bold;
 
 
 #Porto{
-    background-image: url('./webMedia/Porto.jpeg');
+    background-image: url('./webMedia/porto.webp');
     width: 400px;
     height: 640px;
     background-repeat: no-repeat;
@@ -362,7 +368,7 @@ font-weight: bold;
 }
 
 #Milan{
-    background-image: url('./webMedia/Milan.jpeg');
+    background-image: url('./webMedia/Milan.jpg');
     width: 400px;
     height: 300px;
     background-repeat: no-repeat;
@@ -371,7 +377,7 @@ font-weight: bold;
 }
 
 #Rome{
-    background-image: url('./webMedia/Rome.jpeg');
+    background-image: url('./webMedia/Rome.webp');
 
 
     width: 400px;
@@ -467,7 +473,7 @@ font-weight: bold;
 
 }
 
-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./webMedia/bannerbackgroundimage.jpg') ;  
+
 #dateAndArrow{
     display: flex;
     gap: 40px;
